@@ -1,6 +1,5 @@
 function sumIntervals(intervals){
     sorted = intervals.sort()
-    console.log(sorted)
     total = 0;
     for( i = 0; i < intervals.length; i++){
         nowStart = intervals[i][0];
