@@ -1,2 +1,2 @@
-num = '75'
-console.log(num.padStart(5, '0'))
+sent = "hello there everyone";
+console.log(camelize(sent))
