@@ -16,7 +16,6 @@ function encrypt(text, n) {
         text = first.concat(second).join('');
         n--;
     }
-    console.log(text)
     return text;  
 }
 
@@ -32,7 +31,6 @@ function decrypt(encryptedText, n) {
         encryptedText = [].concat.apply([], decrypted).join('');
         n--;
     }
-    console.log(encryptedText)
     return encryptedText;
 }
 
